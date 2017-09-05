@@ -17,13 +17,13 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #fb6e14;
+  color: #D6AC50;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:focus, a:active {
-  color: #bf4c03;
+  color: #D6AC50;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .btn {
@@ -63,18 +63,18 @@ p {
 }
 
 .btn-primary {
-  background: #fb6e14;
+  background: #D6AC50;
   color: #fff;
-  border: 2px solid #fb6e14;
+  border: 2px solid #D6AC50;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f16104 !important;
-  border-color: #f16104 !important;
+  background: #D6AC50 !important;
+  border-color: #D6AC50 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #fb6e14;
-  border: 2px solid #fb6e14;
+  color: #D6AC50;
+  border: 2px solid #D6AC50;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #fb6e14;
@@ -182,7 +182,7 @@ p {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #fb6e14;
+  border-color: #D6AC50;
 }
 
 /*
@@ -321,7 +321,7 @@ p {
 .fh5co-main-nav .fh5co-menu-1 a.active,
 .fh5co-main-nav .fh5co-menu-2 a.active,
 .fh5co-main-nav .fh5co-logo a.active {
-  color: #fb6e14;
+  color: #D6AC50;
 }
 .fh5co-main-nav .fh5co-menu-1 {
   text-align: right;
@@ -367,7 +367,7 @@ p {
   width: 40px;
   height: 2px;
   left: 50%;
-  background: #fb6e14;
+  background: #D6AC50;
   margin-left: -20px;
 }
 .fh5co-heading .sub-heading {
@@ -430,7 +430,7 @@ p {
   width: 40px;
   height: 2px;
   left: 50%;
-  background: #fb6e14;
+  background: #D6AC50;
   margin-left: -20px;
 }
 #fh5co-about .fh5co-text p {
@@ -533,7 +533,7 @@ p {
   position: relative;
   background: transparent;
   box-shadow: none;
-  border: 2px solid #fb6e14;
+  border: 2px solid #D6AC50;
 }
 
 #fh5co-featured {
@@ -555,7 +555,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0103-served-plate_64.png) no-repeat;
+  /*background: url(../images/0103-served-plate_64.png) no-repeat;*/
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -595,7 +595,7 @@ p {
   height: 2px;
   left: 50%;
   margin-left: -20px;
-  background: #fb6e14;
+  background: #D6AC50;
 }
 #fh5co-featured .fh5co-grid .arrow-left:before, #fh5co-featured .fh5co-grid .arrow-left::before {
   content: "";
@@ -776,7 +776,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  /*background: url(../images/0401-vegan.png) no-repeat; */
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -912,7 +912,7 @@ p {
   width: 49px;
   position: absolute;
   content: "";
-  background: url(../images/0402-chef.png) no-repeat;
+  /*background: url(../images/0402-chef.png) no-repeat;*/
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1006,7 +1006,7 @@ p {
   width: 61px;
   position: absolute;
   content: "";
-  background: url(../images/0203-coffee-love.png) no-repeat;
+  /*background: url(../images/0203-coffee-love.png) no-repeat;*/
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1310,7 +1310,7 @@ p {
   color: #fff;
   font-size: 40px;
   text-align: center;
-  padding-top: 110px;
+  padding-top: 30px;
 }
 #fh5co-type h3.with-icon {
   position: relative;
@@ -1329,7 +1329,7 @@ p {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-type h3.with-icon.icon-1:before, #fh5co-type h3.with-icon.icon-1::before {
+/*#fh5co-type h3.with-icon.icon-1:before, #fh5co-type h3.with-icon.icon-1::before {
   background: url(../images/type-1.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
@@ -1340,7 +1340,7 @@ p {
 }
 #fh5co-type h3.with-icon.icon-4:before, #fh5co-type h3.with-icon.icon-4::before {
   background: url(../images/type-4.png) no-repeat center center;
-}
+} */
 #fh5co-type p {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1354,9 +1354,17 @@ p {
   padding-bottom: 40px;
 }
 
-.logo-scale {
-	height: 250px;
-	width: 250px;
+img.logo-scale {
+	height: 500px;
+	width: 500px;
+}
+span.glyphicon-symbol {
+	font-size: 100px;
+	color: #FFFFFF;
+}
+
+p.top-padding {
+	padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
